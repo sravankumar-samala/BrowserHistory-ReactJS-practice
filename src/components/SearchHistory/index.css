@@ -1,0 +1,52 @@
+.main {
+  min-height: 100vh;
+}
+.nav-div {
+  background-color: rgb(28, 28, 168);
+  display: flex;
+  padding: 1em;
+  align-items: center;
+  gap: 1em;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  width: 100%;
+}
+.icon-div,
+.input-search {
+  border-radius: 5px;
+  background-color: #0000003a;
+}
+.icon-div {
+  padding: 2px;
+}
+.input-search {
+  outline: none;
+  font-size: 1.1rem;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+}
+.history-items {
+  padding: 1em;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  min-width: 900px;
+  padding-inline-start: 0;
+  border: 1px solid rgba(0, 0, 0, 0.281);
+  border-radius: 10px;
+  padding: 1em;
+}
+.empty-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}

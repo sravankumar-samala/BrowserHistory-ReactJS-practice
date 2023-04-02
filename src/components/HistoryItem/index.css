@@ -1,0 +1,33 @@
+.history-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2em;
+  width: 100%;
+}
+.time {
+  width: 100px;
+  margin-left: 0;
+}
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.application-details {
+  display: flex;
+  gap: 0.4em;
+  align-items: center;
+}
+button {
+  border: none;
+  background-color: rgba(0, 21, 78, 0.24);
+  padding: 10px;
+  border-radius: 10px;
+}
+.application-details img {
+  width: 30px;
+  height: 30px;
+  margin-right: 1em;
+}
