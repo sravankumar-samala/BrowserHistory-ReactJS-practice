@@ -4,6 +4,7 @@
   justify-content: flex-start;
   gap: 2em;
   width: 100%;
+  padding-block: 0.5em;
 }
 .time {
   width: 100px;
@@ -22,9 +23,10 @@
 }
 button {
   border: none;
-  background-color: rgba(0, 21, 78, 0.24);
+  background-color: rgba(255, 255, 255, 0.24);
   padding: 10px;
   border-radius: 10px;
+  box-shadow: 2px 2px 10px #83838342, -2px -2px 10px #83838342;
 }
 .application-details img {
   width: 30px;

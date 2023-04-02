@@ -4,7 +4,7 @@
 .nav-div {
   background-color: rgb(28, 28, 168);
   display: flex;
-  padding: 1em;
+  padding: 1em 2em;
   align-items: center;
   gap: 1em;
 }
@@ -29,6 +29,7 @@
   border: none;
   padding: 5px 10px;
   color: white;
+  width: 40%;
 }
 .history-items {
   padding: 1em;
@@ -38,11 +39,11 @@
   align-items: center;
 }
 ul {
-  min-width: 900px;
+  min-width: 90%;
   padding-inline-start: 0;
-  border: 1px solid rgba(0, 0, 0, 0.281);
-  border-radius: 10px;
-  padding: 1em;
+  box-shadow: 5px 5px 20px #83838327, -5px -5px 20px #83838327;
+  border-radius: 20px;
+  padding: 1em 2em;
 }
 .empty-message {
   display: flex;
