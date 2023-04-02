@@ -8,6 +8,7 @@
 }
 .time {
   width: 100px;
+  font-weight: 500;
 }
 .item-container {
   display: flex;
