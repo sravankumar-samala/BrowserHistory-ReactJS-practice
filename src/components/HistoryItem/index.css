@@ -8,7 +8,6 @@
 }
 .time {
   width: 100px;
-  margin-left: 0;
 }
 .item-container {
   display: flex;
@@ -20,6 +19,12 @@
   display: flex;
   gap: 0.4em;
   align-items: center;
+}
+.title {
+  font-weight: 500;
+}
+.domain {
+  color: #64748b;
 }
 button {
   border: none;
